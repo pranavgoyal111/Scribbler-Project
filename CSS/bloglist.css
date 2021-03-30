@@ -1,0 +1,82 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+.container {
+  padding-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-new {
+  margin: 20px;
+  width: 500px;
+  transition: box-shadow 0.3s;
+  border-radius: 20px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-new:hover {
+  box-shadow: 0 0 5px 5px rgba(33, 33, 33, 0.2);
+}
+
+.side-square-wrapper {
+  height: 150px;
+  width: 20%;
+  text-align: center;
+  background-color:rgba(119, 136, 153, 0.767);
+  padding:50px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  border-bottom-left-radius: 20px;
+}
+
+.custom-card-body {
+  height: 150px;
+  background-color: lightslategray;
+  color: white;
+  width: 83%;
+  padding: 15px;
+  font-size: 14px;
+  border-bottom-right-radius: 20px;
+}
+
+.card-body-heading {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.post-text {
+  overflow: hidden;
+  white-space: normal;
+
+  height: 4.8em;
+  text-overflow: -o-ellipsis-lastline;
+}
+
+.trash-button {
+  float: right;
+  padding-right: 10px;
+  size: 10px;
+  cursor: pointer;
+}
+
+.ellipsis {
+  margin-left: 370px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding-right: 120px;
+  margin-bottom: 4px;
+}
